@@ -1,0 +1,73 @@
+.quiz-containes{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.start-screen, .result-screen {
+  max-width: 500px;
+  margin: 80px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.start-screen button, .result-screen button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background: #6a1b9a;
+  color:blanchedalmond;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.question-card h2{
+  margin-bottom: 20px;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.options-grid button{
+  padding: 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #124b7c;
+  color:blanchedalmond;
+  cursor: pointer;
+}
+
+.options-grid button:hover{
+  background: #124b7c;
+}
+
+.progrss-bar-cortainer{
+  position: relative;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: #4359a0;
+  transition: width 0.3s ease;
+}
+
+.progress-bar-text{
+  position: absolute;
+  top: 0;
+  right: 8px;
+  font-size: 0.8rem;
+  color: #333;
+  line-height: 20px;
+}
